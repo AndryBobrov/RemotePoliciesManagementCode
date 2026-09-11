@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bf105c43-d2a5-42b4-9f42-7ca7f7de1a76" name="SuperProject" url="http://remotepoliciesmanagement.de">
+        <fileTransfer rootFolder="/httpdocs" host="45.84.196.164" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
