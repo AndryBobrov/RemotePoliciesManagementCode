@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Документ без названия</title>
+    <style>
+        html, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+
+        h1{
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        h3{
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        h4{
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        img{
+            padding-top: 20px;
+            padding-left: 450px;
+        }
+
+        form{
+            text-align: left;
+            margin-left: 30px;
+        }
+
+        .header{
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            justify-content: flex-start;
+        }
+
+        .content{
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            height: 500px;
+        }
+
+        .footer{
+            height: 100px;
+            text-align:center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sitetitle{
+            box-sizing: border-box;
+            padding-top: 50px;
+            padding-left: 50px;
+            height: 150px;
+            width: 50%;
+        }
+
+        .untertitel{
+            box-sizing: border-box;
+            font-size: 18px;
+        }
+
+        .panel{
+            height: 150px;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 70px;
+        }
+
+        .intro{
+            box-sizing: border-box;
+            padding-top: 70px;
+            padding-left: 70px;
+            font-size: 22px;
+            height: 100%;
+            width: 50%;
+        }
+
+        .picture{
+            box-sizing: border-box;
+            height: 100%;
+            width: 50%;
+        }
+
+        .window-layout{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .window-heading{
+            margin-top: 50px;
+        }
+
+        .input{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .labels{
+            margin-right: 22px;
+        }
+
+        .labels2{
+            margin-right: 30px;
+        }
+
+        .window{
+            margin-top: 100px;
+            margin-right: 50px;
+            height: 700px;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .buttonbutton{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin-right: 40px;
+            margin-left: 50px;
+        }
+
+        .button{
+            text-align: center;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body style="background-color:plum">
+<div class="header">
+    <div class="sitetitle"><a href="/index.php" style="text-decoration: none; color: black"><h1>Remote Policies Management</h1><div class="untertitel">Be In Control</div></a></div>
+    <div class="panel"><h4><a href="/login.php">Anmelden</a> | <a href="registration.php">Registrieren</a></h4></div>
+</div>
